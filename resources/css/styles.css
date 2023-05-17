@@ -1,0 +1,73 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome, Edge, Opera and Firefox */
+}
+
+html,
+body {
+  background-color: cadetblue;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #E0F7FA 0%, #80DEEA 100%);
+}
+
+.wraper {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-file-wraper {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-value-wraper {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    padding: 22px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #29862c;
+    color: white;
+}
+
+
